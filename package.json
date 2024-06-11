@@ -1,5 +1,5 @@
 {
-  "name": "t2",
+  "name": "baby-swap",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@lifi/widget": "^2.10.2",
     "@nextui-org/navbar": "^2.0.32",
     "@nextui-org/react": "^2.4.1",
     "@radix-ui/react-dropdown-menu": "^2.0.6",

@@ -4,8 +4,8 @@ import { Nav } from "@/components/Nav";
 import { Providers } from "./providers";
 
 export const metadata: Metadata = {
-  title: "Home",
-  description: "Welcome to T2",
+  title: "Baby Swap",
+  description: "Swap your tokens for the best $BABY tokens on the market!",
 };
 
 export default function RootLayout({
@@ -14,10 +14,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className="">
+    <html lang="en" className="light">
       <body>
         <Providers>
-          <Nav />
+          {/* <Nav /> */}
           {children}
         </Providers>
       </body>
