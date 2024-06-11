@@ -1,10 +1,11 @@
-import { MainPage } from "@/components/main";
-import { UniSwapPage } from "@/components/uniswap";
+// import { MainPage } from "@/components/main";
+// import { UniSwapPage } from "@/components/uniswap";
 
 export default function Page() {
   return (
     <main className="flex flex-col items-center justify-center">
-      <MainPage />
+      <h1>Test 123</h1>
+      {/* <MainPage /> */}
       {/* <UniSwapPage /> */}
     </main>
   );
