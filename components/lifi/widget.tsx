@@ -9,6 +9,7 @@ const widgetConfig: WidgetConfig = {
   toToken: "0x59E25CC1E5a9AbDA2593debD74A5215836A10C9a",
   toChain: 8453,
   slippage: 0.13,
+  appearance: "light",
 };
 
 export const LifiWidgetComponent = () => {
