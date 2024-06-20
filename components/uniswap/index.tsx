@@ -29,7 +29,6 @@ export const UniSwapPage = () => {
       <SwapWidget
         tokenList={MY_TOKEN_LIST}
         jsonRpcUrlMap={{
-          1: "https://mainnet.infura.io/v3/8b0e1b0f7f7b4f3e9b5b9c4b5b3c3f3c",
           8453: "https://base.llamarpc.com",
         }}
         // provider={provider}
