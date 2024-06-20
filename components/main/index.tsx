@@ -1,6 +1,6 @@
 "use client";
-
-import { LiFiWidgetNext } from "../lifi";
+import { UniSwapPage } from "../uniswap";
+import "@uniswap/widgets/fonts.css";
 
 export const MainPage = () => {
   return (
@@ -8,7 +8,7 @@ export const MainPage = () => {
       <h1 className="text-3xl font-bold text-center my-8">
         Welcome to the $BABY Swap!
       </h1>
-      <LiFiWidgetNext />
+      <UniSwapPage />
     </div>
   );
 };
