@@ -1,4 +1,3 @@
-"use client";
 import { LiFiWidgetNext } from "../lifi";
 
 export const MainPage = () => {
