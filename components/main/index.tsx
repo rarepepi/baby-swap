@@ -1,7 +1,7 @@
 "use client";
 import { LifiWidgetComponent } from "../lifi/widget";
-import { UniSwapPage } from "../uniswap";
-import "@uniswap/widgets/fonts.css";
+// import { UniSwapPage } from "../uniswap";
+// import "@uniswap/widgets/fonts.css";
 
 export const MainPage = () => {
   return (
