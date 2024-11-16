@@ -6,9 +6,9 @@ const widgetConfig: WidgetConfig = {
     borderRadius: "16px",
   },
   integrator: "baby-swap",
-  toToken: "0x59E25CC1E5a9AbDA2593debD74A5215836A10C9a",
+  toToken: "0x4730DdC61264ba9189B25169BdAEae46CF07Ee93",
   toChain: 8453,
-  slippage: 0.13,
+  // slippage: 0.05,
   appearance: "light",
 };
 
