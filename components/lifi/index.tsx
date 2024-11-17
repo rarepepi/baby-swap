@@ -8,7 +8,6 @@ export function LiFiWidgetNext() {
   const config = {
     toToken: "0x4730DdC61264ba9189B25169BdAEae46CF07Ee93",
     toChain: 8453,
-    slippage: 0.05,
     appearance: "light",
     theme: {
       container: {
