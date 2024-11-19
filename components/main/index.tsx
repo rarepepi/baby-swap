@@ -1,11 +1,10 @@
 import { LiFiWidgetNext } from "../lifi";
+import Image from "next/image";
 
 export const MainPage = () => {
   return (
     <div className="w-full h-screen flex flex-col items-center justify-center">
-      <h1 className="text-3xl font-bold text-center my-8">
-        Welcome to the $BABY Swap!
-      </h1>
+      <Image alt="Baby" src="/BABY-Banner.png" width={300} height={150} />
       <LiFiWidgetNext />
     </div>
   );
