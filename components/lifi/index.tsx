@@ -27,6 +27,10 @@ export function LiFiWidgetNext() {
         boxShadow: "0px 8px 32px rgba(0, 0, 0, 0.08)",
         borderRadius: "16px",
       },
+      palette: {
+        primary: { main: "#5cf52e" },
+        secondary: { main: "#fec9d2" },
+      },
     },
   } as Partial<WidgetConfig>;
 
